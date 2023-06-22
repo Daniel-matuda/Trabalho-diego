@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Anuncie - E</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header1" style="background: black;">
+    
+      <a href="../../Services responsive daniel - E/services.html" class="logo"><span>Trica Sports</span></i></a>
+    
+      <ul class="navbar">
+        <!-- <li><a href="#" class="active">Home</a></li> -->
+        <li><a href="../../FUTEBOL-MAIN - E/index.html">Futebol</a></li>
+        <li><a href="../../VOLEI-MAIN - E/index.html">Vôlei</a></li>
+        <li><a href="../../BASQUETE-MAIN - E/index.html">Basquete</a></li>
+        <li><a href="../../Admin Dashboard Panel/index.html">ADMIN</a></li>
+        <li><a href="../../Anuncio - C/Registration Form/index.html"><ion-icon style="font-size: 30px;"
+              name="sunny-outline"></ion-icon></a></li>
+      </ul>
+    
+      <div class="main">
+        <a href="../../Login & Registration Form/index.html" class="user"><i class='bx bxs-user'></i>LOGIN</a>
+        <a href="../../account-settings/index.html">Edit PROFILE</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    
+    </header>
+
+
+
+    <section class="container">
+      <header>Criando anúncio</header>
+      <form action="../../ANUNCIO - NIKE/index.html" class="form">
+        <div class="input-box">
+          <label>Nome do produto</label>
+          <input type="text" placeholder="Insira o nome do seu produto: " required />
+        </div>
+
+        <div class="input-box">
+          <label>Nome da Loja</label>
+          <input type="text" placeholder="Insira o nome da sua loja: " required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Preço do produto</label>
+            <input type="number" step="0.01" name="quantity" min="0.01" placeholder="Digite o valor da unidade: " required>
+          </div>
+          <div class="input-box">
+            <label>Insira a data para o anuncio expirar</label>
+            <input type="date" placeholder="Insira o prazo para o anuncio experirar" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Categoria do produto</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">FUTEBOL</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">VÔLEI</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">BASQUETE</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Descrição do produto</label>
+          <input type="text" placeholder="Descrição principal" required />
+          <div class="input-box">
+            <label>Quantidade de itens</label>
+            <input type="number" name="quantity" min="1.00" placeholder="Digite a quantidade a pronto entrega:  " required>
+          </div>
+
+
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>TIPO DE ITEM</option>
+                <option>Calçado</option>
+                <option>Roupa</option>
+                <option>Acessório</option>
+                <option>OUTROS</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Insira o modelo do item: " required />
+          </div>
+          <div class="column">
+            <input type="file" placeholder="Suba a imagem do seu produto"/>
+            <input type="text" placeholder="Numerações: (0 quando não precisa)" />
+          </div>
+        </div>
+        <button>Visualizar Anuncio</button>
+      </form>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
